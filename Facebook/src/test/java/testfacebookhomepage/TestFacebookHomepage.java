@@ -22,8 +22,5 @@ public class TestFacebookHomepage extends CommonAPI {
         testfacebook.facebooklogin();
     }
 
-    @Test
-    public void clickonhelp(){
-        testfacebook.clickhelp();
-    }
+
 }
