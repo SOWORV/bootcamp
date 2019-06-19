@@ -21,7 +21,7 @@ public class TestHomePage extends CommonAPI {
         testhomepage = PageFactory.initElements(driver, HomePage.class);
         driver.get(url);
     }
-    /*@Test
+    @Test
     public void clicksignIn(){
         testhomepage.clicksignIn();
         testhomepage.signin();
@@ -32,7 +32,7 @@ public class TestHomePage extends CommonAPI {
         testhomepage.clicksignIn();
         testhomepage.forgetpass();
 
-    }*/
+    }
     @Test
     public void searchbooks(){
         testhomepage.purchase();
