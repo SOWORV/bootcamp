@@ -21,15 +21,15 @@ public class TestCignaHomepage extends CommonAPI {
     @Test
     public void SignIn(){
         testcigna.clickonSignIn();
-        driver.navigate().to("https://my.cigna.com/web/public/guest");
+        handleNewTab(driver);
         testcigna.setSignIn();
         driver.navigate().to(url);
     }
     @Test
     public void resetaccout(){
         testcigna.clickonSignIn();
+        handleNewTab(driver);
 
-        //driver.navigate().to("https://my.cigna.com/web/public/guest");
         testcigna.resetidandpass();
         driver.navigate().to(url);
     }
